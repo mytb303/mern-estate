@@ -18,6 +18,7 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
   },
+  // timestamps for MongoDB to log user creation and updates
   { timestamps: true }
 );
 // create the model
